@@ -35,7 +35,7 @@ global.public = process.env.PUBLIC === 'true';
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
 global.unavailable = process.env.UNAVAILABLE === 'true';
 global.available = process.env.AVAILABLE === 'true';
-global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'true';
+global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'false';
 global.chatbot = process.env.CHATBOT === 'true';
 global.autoreact = process.env.AUTO_REACT === 'true';
 
